@@ -1,10 +1,10 @@
+from datetime import datetime
+from math import floor
+from os import system, name
+from time import time, sleep
 from typing import Callable
 
 from art import text2art
-from datetime import datetime
-from os import system, name
-from time import time, sleep
-from math import floor
 
 clear: Callable[[], int] = lambda: system("cls" if name == "nt" else "clear")
 
